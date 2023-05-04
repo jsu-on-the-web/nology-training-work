@@ -8,26 +8,58 @@
 		<title>_Nology Pre Course Website</title>
 	</head>
 	<body>
-		<h1>Welcome to Janet's Website!</h1>
-		<br /><br />
-		<p class="contentParagraph">
-			Here's one of my favourite webpages. It's a Github list of lists of
-			resources for lots of different topics, not just coding and computing!
+		<header>
+			<h1>Welcome to Janet's Website!</h1>
 			<br />
-			<a href="https://github.com/topics/awesome-list">
-				Awesome Lists - Github</a
-			>
-		</p>
+			<p>This is my webpage!</p>
+		</header>
+		<main>
+			<br /><br />
+			<p class="contentParagraph">
+				Here's one of my favourite webpages. It's a Github list of lists of
+				resources for lots of different topics, not just coding and computing!
+				<br />
+				<a href="https://github.com/topics/awesome-list">
+					Awesome Lists - Github</a
+				>
+			</p>
 
-		<!-- Div section -->
+			<!-- Div section -->
 
-		<div>
-			<h1>This is my div!</h1>
-			<br />
-			<p>As you can see, this is a paragraph.</p>
-		</div>
+			<div>
+				<h1>This is my div!</h1>
+				<br />
+				<p>As you can see, this is a paragraph.</p>
+			</div>
+
+			<!-- List section -->
+			<div class="myTodos">
+				<h1>My To Do Lists</h1>
+				<h2>Grocery List</h2>
+				<ul>
+					<li>Oranges</li>
+					<li>Lo-GI Bread</li>
+					<li>Butter</li>
+				</ul>
+
+				<h2>Errands</h2>
+				<ol>
+					<li>Get groceries</li>
+					<li>Complete today's lessons</li>
+					<li>Send birthday card to grandma</li>
+				</ol>
+			</div>
+
+			<!-- ID/Class section -->
+			<div>
+				<h1 id="the-only-blue-title-here">This header should be blue</h1>
+				<h1 class="red-title">This header should be red</h1>
+				<h2 class="red-title">This header should also be red</h2>
+			</div>
+		</main>
 	</body>
 
+	<!-- Styles -->
 	<style>
 		body {
 			text-align: center;
@@ -37,11 +69,26 @@
 			color: blue;
 		}
 
-		.contentParagraph {
+		#the-only-blue-title-here {
+			color: darkblue;
+		}
+
+		.red-title {
+			color: crimson;
+		}
+
+		p {
 			font-family: Arial, Helvetica, sans-serif;
 		}
 
-		div {
+		header p {
+			color: rgb(180, 19, 19);
+		}
+		main p {
+			color: rgb(18, 18, 184);
+		}
+
+		body div {
 			border: 1px groove black;
 		}
 	</style>
