@@ -1,0 +1,53 @@
+/*=============================================
+=            Main selectors            =
+=============================================*/
+
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+main {
+	font-family: "Roboto", sans-serif;
+	display: block;
+	text-align: center;
+}
+/*=========================
+=	IDs =======
+=========================*/
+#nav-bar {
+	margin-bottom: 4vh;
+}
+
+nav > ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 7vh;
+	border-bottom: 1px solid #000000;
+}
+
+nav > ul > li > a {
+	color: #222222;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+	color: crimson;
+	text-decoration: underline;
+	font-weight: bold;
+}
