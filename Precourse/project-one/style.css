@@ -19,12 +19,17 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
-main {
+header + main {
 	font-family: "Roboto", sans-serif;
 	display: block;
 	text-align: center;
 	display: flex;
 	justify-content: center;
+}
+
+header {
+	text-align: center;
+	padding: 2vh;
 }
 /*=========================
 =	IDs =======
@@ -32,6 +37,11 @@ main {
 #nav-bar {
 	margin-bottom: 4vh;
 }
+
+
+/*----------  Gallery  ----------*/
+
+
 #gallery {
 	display: grid;
 	grid-template-columns: repeat(3, auto);
@@ -53,6 +63,25 @@ main {
 #gallery img:hover {
 	box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.9);
 }
+
+
+/*----------  Contact form  ----------*/
+
+
+.contactForm { 
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 1vw;
+}
+
+.contactForm > label {
+	font-weight: bold;
+}
+
+.contactForm > button {
+	border-radius: 5px;
+}
+
 
 /*=========================
 =            Selectors            =
