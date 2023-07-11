@@ -96,6 +96,7 @@ footer {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 	grid-gap: 1vw;
+	margin: 300px;
 }
 
 #contactForm > label {

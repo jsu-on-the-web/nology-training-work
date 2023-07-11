@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+        rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <title>Lists and Tables</title>
+</head>
+
+<body>
+    <header>
+        <h1>Lists and Tables Challenge</h1>
+    </header>
+    <main>
+        <h2>How To Make Changes To A Repo With A Pull Request <i class="fab fa-github"></i></h2>
+        <ol>
+            <li>Use <span class="code">git checkout -b "branchname"</span> to create a branch to make your changes on.
+            </li>
+            <li>Make your changes to the code and follow the steps for committing them.</li>
+            <ul>
+                <li>⚠️ Make sure to give your commits sensible messages!</li>
+            </ul>
+            <li>Use <span class="code">git push</span> to push the changes to your remote branch.</li>
+            <li>Go to the repo on Github and make a pull request by clicking the <span class="ghButton">Compare and Pull
+                    Request</span> button. Add your title and body.</li>
+            <ul>
+                <li>If you have the Github command line tool, you can also use the following command: <br />
+                    <span class="code">gh pr create --title "prtitle" --body "prbody"</span>
+                </li>
+                <li>⚠️ Make your PR titles short but descriptive, treat them like commit messages. You can add
+                    additional details about the work you've done in the PR body.</li>
+            </ul>
+            <li>Submit your pull request and await for the repo owner to review and/or merge the changes.</li>
+        </ol>
+
+    </main>
+</body>
+<style>
+    .code {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .ghButton {
+        background-color: green;
+        color: white !important;
+        border-radius: 5px;
+        padding: 3px;
+    }
+</style>
+
+</html>
