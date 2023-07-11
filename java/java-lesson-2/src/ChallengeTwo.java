@@ -25,5 +25,7 @@ public class ChallengeTwo {
         } else {
             System.out.println(c + " is the biggest");
         }
+
+        s.close();
     }
 }
