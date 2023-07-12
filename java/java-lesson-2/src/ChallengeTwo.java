@@ -26,6 +26,8 @@ public class ChallengeTwo {
             System.out.println(c + " is the biggest");
         }
 
+        // ? Try using Math.max() next time? Is there a version that lets us compare multiple numbers?
+        
         s.close();
     }
 }
