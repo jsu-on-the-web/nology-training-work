@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="inheritance/" kind="src" path=".history/java-lesson-5/src"/>
+	<classpathentry kind="src" path=".history/java-lesson-5/src/inheritance"/>
+	<classpathentry kind="src" path="java-lesson-1/src"/>
+	<classpathentry kind="src" path="java-lesson-2/src"/>
+	<classpathentry kind="src" path="java-lesson-3/src"/>
+	<classpathentry excluding="lists/" kind="src" path="java-lesson-4/src"/>
+	<classpathentry kind="src" path="java-lesson-4/src/lists"/>
+	<classpathentry kind="src" path="java-lesson-5/src"/>
+	<classpathentry kind="output" path="java-lesson-1/bin"/>
+</classpath>
