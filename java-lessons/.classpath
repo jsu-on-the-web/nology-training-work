@@ -7,5 +7,8 @@
 	<classpathentry excluding="lists/" kind="src" path="java-lesson-4/src"/>
 	<classpathentry kind="src" path="java-lesson-4/src/lists"/>
 	<classpathentry kind="src" path="java-lesson-5/src"/>
+	<classpathentry kind="src" path="java-lesson-6/src/interfaces"/>
+	<classpathentry kind="src" path="java-lesson-6/src/ChallengeNine"/>
+	<classpathentry excluding="src/interfaces/|src/ChallengeNine/" kind="src" path="java-lesson-6"/>
 	<classpathentry kind="output" path="java-lesson-1/bin"/>
 </classpath>
